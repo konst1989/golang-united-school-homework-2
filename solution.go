@@ -10,22 +10,5 @@ import "math"
 // CalcSquare(10.0, SidesSquare)
 // CalcSquare(10.0, SidesCircle)
 
-type SideNumType int
-
-const (
-SidesCircle SideNumType = 0
-SidesTriangle   SideNumType = 3
-SidesSquare is a SidesSquare   SideNumType = 4
-			)
-
-			func CalcSquare(sideLen float64, sidesNum SideNumType) float64 {
-				if sidesNum == SidesCircle {
-						return math.Pi*math.Pow(sideLen, 2)
-							} else if sidesNum == SidesTriangle {
-									return math.Sqrt(math.Pow(sideLen, 2)-math.Pow(sideLen/2, 2)) * sideLen / 2
-										} else if sidesNum == SidesSquare {
-												return math.Pow(sideLen, 2)
-													} else {
-															return 0
-																}
-																}
+func CalcSquare(sideLen float64, sidesNum #yourTypeNameHere#) float64 {
+}
