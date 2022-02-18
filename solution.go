@@ -1,7 +1,6 @@
 package solution
 
 import (
-	"fmt"
 	"math"
 )
 
@@ -31,9 +30,4 @@ func CalcSquare(sideLen float64, sidesNum SidesCount) float64 {
 	} else {
 		return 0
 	}
-}
-
-func main() {
-
-	fmt.Println(CalcSquare(10.0, SidesCircle))
 }
